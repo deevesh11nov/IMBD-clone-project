@@ -1,0 +1,26 @@
+.result-grid{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(42, 40, 40);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.delete-btn{
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.5%;
+    right: 0.5%;
+    cursor: pointer;
+}
+#clone:hover{
+  color: yellow;
+}
+
